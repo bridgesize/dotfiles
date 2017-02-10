@@ -25,7 +25,3 @@ noremap!  <BS>
 
 let loaded_matchparen = 1
 
-
-call plug#begin('~/.vim/plugged')
-call plug#end()
-
