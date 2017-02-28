@@ -25,3 +25,5 @@ noremap!  <BS>
 
 let loaded_matchparen = 1
 
+syntax on
+
