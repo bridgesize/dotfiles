@@ -10,3 +10,6 @@ do
 	[[ ${f} = ".gitignore" ]] && continue
 	ln -snfv ${DOT_DIRECTORY}/${f} ${HOME}/${f}
 done
+
+mkdir -p ~/.vim/autoload
+cp -p vim-plug/plug.vim ~/.vim/autoload/plug.vim
